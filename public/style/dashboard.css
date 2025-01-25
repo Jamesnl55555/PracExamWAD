@@ -1,0 +1,37 @@
+body{
+    background-color: grey;
+}
+header{
+    position:relative;
+    margin: 20px;
+    align-content: space-around;
+    background-color: orange;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    border-style: solid;
+    align-content: space-around;
+    padding: 1%;
+}
+.messages{
+    border-style: solid;
+    width: 90%;
+}
+.user{
+    border-style: solid;
+    text-align: right;
+    border-color: blue;
+}
+.other{
+    
+    border-style: solid;
+    text-align: left;
+    border-color: green;
+}
+span{
+    padding: 5px;
+    border-style: dotted;
+    border-color:black;
+    margin: 5px;
+}
